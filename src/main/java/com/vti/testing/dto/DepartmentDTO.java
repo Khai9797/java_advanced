@@ -16,7 +16,6 @@ public class DepartmentDTO {
     @JsonProperty("totalMember")
     private int totalMember;
     private Type type;
-    // sửa clg j đó
     @JsonFormat(pattern = "dd/MM/yyyy")
     private Date createdDate;
     private List<AccountDTO> accounts;
